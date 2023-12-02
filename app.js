@@ -1,8 +1,8 @@
-var listOf = [];
 var input = document.getElementById("input");
-var todo = document.getElementById("todolist");
+var todo = document.querySelector("ul");
+var listOf = [];
 
-document.getElementById("button")
+document.querySelector("button")
 button.addEventListener("click", () => {
   listOf.push(input.value);
   console.log(listOf);
